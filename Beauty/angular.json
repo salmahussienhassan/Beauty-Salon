@@ -30,7 +30,7 @@
               "src/styles.css"
             ],
             "scripts": [
-           
+            "node_modules/@dotlottie/player-component/dist/dotlottie-player.js"
             ]
           },
           "configurations": {

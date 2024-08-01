@@ -1,0 +1,49 @@
+.image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-container::before,
+  .image-container::after {
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: .3px; /* Adjust the height for line thickness */
+    background-color: #832E1A; /* Line color */
+  }
+  
+  .image-container::before {
+    top: 50%;
+    left: 0;
+  }
+  
+  .image-container::after {
+    top: 50%;
+    right: 0;
+  }
+  
+  .image-container img {
+    position: relative;
+    z-index: 1; /* Ensure the image is above the lines */
+    margin: 10px 0; /* Adjust spacing between line and image */
+  }
+  .logo{
+    width:7%;
+  }
+  h1{
+    color: #832E1A;
+font-size: 81px;
+font-weight: 400;
+  }
+  .soon{
+    background-image:url('../../../assets/images/Group (5).svg');
+    background-repeat:no-repeat;
+   background-position:top;
+   
+  }
+  dotlottie-player{
+    height:15%;
+    width:50%;
+  }
